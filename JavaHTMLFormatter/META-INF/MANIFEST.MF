@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JavaHTMLFormatter
+Bundle-SymbolicName: JavaHTMLFormatter
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: javahtmlformatter.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javacodemarker.services,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.1"
+Bundle-ActivationPolicy: lazy
+Export-Package: javahtmlformatter
+Require-Bundle: m2dl.osgi.editor;bundle-version="1.0.0"
